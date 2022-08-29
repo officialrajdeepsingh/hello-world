@@ -1,0 +1,1 @@
+Install the `hello-world` theme in your ghost cms. It is a basis structure for ghost theme.
