@@ -1,0 +1,40 @@
+<div class="bg-neutral-600 my-5">
+    <div class="flex flex-row">
+        <img width="40%" height="370px" src="{{feature_image}}" />
+
+        <div class="flex flex-col p-6 mt-5">
+            {{#if tags}}
+
+            {{#foreach tags limit="2"}}
+
+            <p class="block text-sm text-indigo-500 font-medium p-1 mb-2">
+                <a href="{{url}}" title="{{name}}" class="tag tag-{{id}} {{slug}}">{{name}}</a>
+            </p>
+
+
+            {{/foreach}}
+
+            {{/if}}
+            <p class="block text-[1.75rem] text-white font-medium"> <a href="{{url}}">{{title}}</a></p>
+            <p class="block text-[0.75rem] text-white font-normal mt-1"> <a href="{{url}}">{{excerpt}} </a></p>
+            {{#if authors}}
+            <ul>
+                {{#foreach authors limit="1"}}
+                <div class="flex flex-row p-4">
+                    <div class="rounded-lg w-10 h-10 mx-3 bg-center bg-no-repeat">
+                        <img class=" w-10 h-10 rounded-lg" src="{{profile_image}}" />
+                    </div>
+                    <div class="flex flex-col">
+                        <p class="block text-sm text-white text-opacity-[0.80] font-medium">{{name}}</p>
+                        <p class="block text-[0.81rem] text-white text-opacity-[0.80] "> {{date published_at}}</p>
+                    </div>
+                </div>
+
+                {{/foreach}}
+            </ul>
+            {{/if}}
+
+        </div>
+
+    </div>
+</div>
