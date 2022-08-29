@@ -667,3 +667,15 @@ video {
 .text-opacity-\[0\.80\] {
   --tw-text-opacity: 0.80;
 }
+
+/* .kg-width-full and .kg-width-wide Add both class in @layer components */
+
+.kg-width-wide {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.kg-width-full {
+    max-width: 100vw;
+}

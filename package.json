@@ -1,7 +1,7 @@
 {
-    "name": "hello-world",
+    "name": "hello",
     "description": "Hello world theme is create by cli",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "license": "MIT",
     "author": {
         "email": "your@email.here",
