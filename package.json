@@ -12,8 +12,7 @@
         "tailwind": "tailwindcss  -i ./assets/css/tailwind.css -o ./assets/build/tailwind.css --minify"
     },
     "screenshots": {
-        "desktop": "assets/screenshot-desktop.jpg",
-        "mobile": "assets/screenshot-mobile.jpg"
+        "desktop": "assets/hello-world-thumb.png"
     },
     "keywords": [
         "ghost",
